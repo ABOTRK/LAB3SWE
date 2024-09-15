@@ -16,6 +16,12 @@ def createGroup(stdList, sizeOfGroups = 2):
             if(len(stdList) > 0):
                 print(f"{i}. {stdList.pop()}") 
 
+def studentCheck(stdLIst,studentName):
+    for st in stdLIst:
+        if(st == studentName) :
+            return True
+        else:
+            return False
 
 
 listTem = ["A", "B", "C", "D"]
